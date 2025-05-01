@@ -10,14 +10,14 @@ This project tackles sentiment classification using a Kaggle competition dataset
 
 ---
 
-### 📁 Dataset Overview
+###  Dataset Overview
 - Source: Rotten Tomatoes review dataset used in Stanford's NLP sentiment work
 - Format: Each row contains a short phrase and its sentiment label (0 to 4)
 - Used subset: 20,000 phrases (due to 16GB RAM constraint)
 
 ---
 
-### 🧼 Preprocessing Steps
+### Preprocessing Steps
 - Tokenization using `word_tokenize`
 - Lowercasing for consistency
 - Lemmatization using WordNet Lemmatizer
@@ -25,7 +25,7 @@ This project tackles sentiment classification using a Kaggle competition dataset
 
 ---
 
-### 🛠️ Feature Engineering Experiments
+###  Feature Engineering Experiments
 
 | Feature Set                | Description                                             | Accuracy  | Best? |
 |---------------------------|---------------------------------------------------------|-----------|--------|
@@ -43,14 +43,14 @@ This project tackles sentiment classification using a Kaggle competition dataset
 
 ---
 
-### 🔍 Observations
+###  Observations
 - ✔️ **Subjectivity Lexicon** delivered the best accuracy among Naive Bayes models.
 - ✔️ **Random Forest Classifier** provided the highest overall accuracy.
 - Negation features unexpectedly reduced accuracy, likely due to added noise.
 
 ---
 
-### 📌 Reflection
+###  Reflection
 Despite reviewing course materials in depth, implementing real-world NLP revealed new challenges:
 - Hardware limitations (16GB RAM) impacted data scalability
 - Feature combination was trickier than expected due to preprocessing incompatibilities
